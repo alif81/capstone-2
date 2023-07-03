@@ -1,0 +1,204 @@
+.landing {
+  background-color: #1b264f;
+  height: 700px;
+  width: 100%;
+  background-image: url(images/night\ sky.png);
+}
+
+/* navbar */
+
+#container-nav {
+  margin-right: 0px;
+  width: 1000px;
+}
+
+.navbar-nav li a {
+  color: #d4ad0e;
+  font-size: 12px;
+}
+
+.custom-toggler.navbar-toggler {
+  border: transparent;
+}
+
+.custom-toggler.navbar-toggler:focus {
+  outline: none;
+  border: none;
+  box-shadow: none;
+}
+
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(185, 183, 185)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+button.navbar-toggler {
+  height: 25px;
+  width: 25px;
+}
+
+.navbar .navbar-toggler .navbar-toggler-icon {
+  color: #ecf0f1;
+  height: 20px !important;
+  width: 20px !important;
+}
+
+/* name */
+.identity-section {
+  text-align: start;
+  display: flex;
+  flex-direction: row;
+  padding-top: 20px;
+  margin-left: 100px;
+  width: 1200px;
+  height: 500px;
+  gap: 400px;
+}
+
+.name-section {
+  margin-top: 70px;
+  flex-direction: column;
+  width: 500px;
+  height: 300px;
+}
+
+.name {
+  color: #efefef;
+  left: 120px;
+  font-size: 70px;
+  font-family: "Merriweather", serif;
+}
+
+.bold-head {
+  color: #ffd93d;
+}
+
+.caption {
+  color: #ece9ee;
+  font-size: 40px;
+  font-family: "Roboto", sans-serif;
+}
+
+.paragraph {
+  font-size: 16px;
+  color: #cbc7c7;
+}
+
+.icon-medsos {
+  display: flex;
+  gap: 15px;
+  padding: 0;
+}
+
+.icon {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: inline;
+}
+
+.icon svg {
+  color: rgb(255, 249, 249);
+}
+
+/* image */
+
+.photo {
+  margin: 0px;
+  width: 320px;
+  height: 550px;
+  display: block;
+  float: right;
+}
+
+.image {
+  display: block;
+  margin: 0px;
+  width: 300px;
+  height: 300px;
+  float: right;
+}
+
+.ornament {
+  border-radius: 100%;
+  width: 350px;
+  height: 350px;
+  background-color: #f8d132;
+}
+
+/* about me */
+
+.about-me {
+  background-color: #141e41;
+}
+
+#deskrip {
+  color: #a19f9f;
+  font-family: "Merriweather", serif;
+  font-size: 15px;
+}
+
+#judul {
+  color: #e0dede;
+  font-size: 50px;
+  font-family: "Merriweather", serif;
+}
+
+.bold-par {
+  color: #ffd93d;
+}
+
+/* media phone */
+@media (max-width: 990px) {
+  .landing {
+    width: 100%;
+  }
+
+  .identity-section {
+    text-align: start;
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+    margin-left: 100px;
+    width: 800px;
+    height: 500px;
+    gap: 50px;
+  }
+
+  .photo {
+    margin: 0px;
+    width: 300px;
+    height: 450px;
+    display: block;
+  }
+
+  .image {
+    display: block;
+    margin: 0px;
+    width: 30%;
+    height: 200px;
+  }
+
+  .ornament {
+    border-radius: 100%;
+    width: 300px;
+    height: 300px;
+    background-color: #f8d132;
+  }
+
+  .name-section {
+    margin-top: 70px;
+    flex-direction: column;
+    width: 75%;
+    height: 300px;
+  }
+
+  .photo-aboutme {
+    width: 400px;
+    height: 400px;
+  }
+
+  #aboutme {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
