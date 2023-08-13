@@ -129,6 +129,7 @@ button.navbar-toggler {
 
 .about-me {
   background-color: #141e41;
+  background-image: url(images/background-2.png);
 }
 
 #deskrip {
@@ -141,6 +142,7 @@ button.navbar-toggler {
   color: #e0dede;
   font-size: 50px;
   font-family: "Merriweather", serif;
+  text-align: center;
 }
 
 .bold-par {
@@ -200,5 +202,9 @@ button.navbar-toggler {
   #aboutme {
     display: flex;
     flex-direction: column;
+  }
+
+  .about-me {
+    background-color: #141e41;
   }
 }
